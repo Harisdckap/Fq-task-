@@ -1,0 +1,79 @@
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+ 
+}
+#main-container {
+    display: grid;
+    justify-content: center;
+} 
+button {
+    background-color: crimson;
+    font-weight: bolder;
+    background: transparent;
+    font-size: 21px;
+    position: relative;
+    top: 0px;
+    left: 407px;
+    height: 27px;
+    width: 28px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+h2 {
+    margin: 0;
+    position: relative;
+    bottom: 22px;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+p{
+    margin: 0;
+    color: #494949;
+    font-size: 19px;
+}
+#Data {
+    color:black;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1 {
+    color: orange;
+    font-size: 38px;
+}
+.chart-1>* {
+    width: 450px;
+    margin-top: 21px;
+    padding: 17px 12px;
+    background-color: white;
+    box-shadow: 8px 7px 13px gray;
+    border-radius: 7px;
+}
+.chart-1 {
+    margin: auto;
+}
+
+hr {
+    background-color: aqua;
+}
+
+.Ans1{
+    display: none;
+}
+
+.para .Ans1 {
+    display: block;
+}
+
+ .para .plus{
+     display: none;
+}
+
+.para .minus{
+    display: block;
+} 
+.minus {
+    display: none;
+}  
